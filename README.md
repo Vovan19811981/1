@@ -57,5 +57,5 @@ subgraph L2 [Мережевий рівень - Network Layer]
 ## 8. Джерела:
 1. ITU-T Recommendation Y.2060: Overview of the Internet of Things — https://www.itu.int/rec/T-REC-Y.2060. Дата зверення: 27.10.2026
 2. NISTIR 8228: Considerations for Managing Internet of Things (IoT) Cybersecurity — https://csrc.nist.gov/publications/detail/nistir/8228/final. Дата звернення: 29.10.2026
-3. ENISA: Baseline Security Recommendations for IoT — https://www.enisa.europa.eu/publications/baseline-security-recommendations-for-iot. Дата зверення: 29.10.2027
+3. ENISA: Baseline Security Recommendations for IoT — https://www.enisa.europa.eu/publications/baseline-security-recommendations-for-iot. Дата зверення: 29.10.2026
 4. MQTT Official Specification — https://mqtt.org/. Дата звернення: 29.10.2026
