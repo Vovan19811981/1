@@ -52,7 +52,7 @@ subgraph L2 [Мережевий рівень - Network Layer]
     C1 --> W1
     C1 --> M1
 
-    ```
+```
     
 ## 8. Джерела:
 1. ITU-T Recommendation Y.2060: Overview of the Internet of Things — https://www.itu.int/rec/T-REC-Y.2060
