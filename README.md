@@ -23,7 +23,7 @@ graph TD
     end
 subgraph L2 [Мережевий рівень - Network Layer]
         N1[Локальна мережа: інтерфейс RS-485 / Modbus RTU]
-        N1[Шлюз IoT Edge Gateway з підтримкою Wi-Fi / 4G]
+        N2[Шлюз IoT Edge Gateway з підтримкою Wi-Fi / 4G]
     end
 
     subgraph L3 [Рівень обробки - Processing & Storage Layer]
