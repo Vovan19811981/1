@@ -27,13 +27,13 @@ subgraph L2 [Мережевий рівень - Network Layer]
     end
 
     subgraph L3 [Рівень обробки - Processing & Storage Layer]
-        E1[Локальний Edge-контролерр / Node-RED / локальна БД SQLite]
+        E1[Локальний Edge-контролер / Node-RED / локальна БД SQLite]
         C1[Хмарна платформа AWS IoT / сервер баз даних Time-series DB]
     end
 
-    subgraph L4 [Рівен застосунків - Application Layer]
+    subgraph L4 [Рівень застосунків - Application Layer]
         W1[Вебдодаток та Dashboard агронома]
-        M1[Мобільний застосунок для сповіщень push/телеграм]
+        M1[Мобільний застосунок для сповіщень push - Telegram]
     end
 
     D1 --> N1
@@ -47,7 +47,7 @@ subgraph L2 [Мережевий рівень - Network Layer]
     A3 -.-> N1
     A4 -.-> N1
 
-    N2 --> M1
-    E1 --> W1
-    C1 --> E1
-    C1 --> E1
+    N2 --> E1
+    E1 --> C1
+    C1 --> W1
+    C1 --> M1
