@@ -51,3 +51,9 @@ subgraph L2 [Мережевий рівень - Network Layer]
     E1 --> C1
     C1 --> W1
     C1 --> M1
+
+   Джерела: ITU-T Recommendation Y.2060:Overview of the Internet of Things. https://www.itu.int/rec/T-REC-Y.2060 (Дата звернення: березень 2026).
+
+    NISTIR 8228: Considerations for Managing Internet of Things (IoT) Cybersecurity. https://csrc.nist.gov/publications/detail/nistir/8228/final (Дата звернення: березень 2026).
+
+    MQTT Official Specification. https://mqtt.org/ (Дата звернення: березень 2026)
